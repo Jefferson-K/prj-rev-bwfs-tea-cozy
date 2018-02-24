@@ -1,0 +1,154 @@
+/*Global*/
+* {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+body {margin: 0;}
+
+h2 {font-size: 1.5em;}
+
+h3 {font-size: 1.17em;}
+
+h4 {font-size: 1em;}
+
+h5 {font-size: .83em;}
+
+
+/*Header*/
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  z-index: 5;
+  }
+
+header img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+header nav a {
+  padding-right: 10px;
+  text-decoration: underline;
+}
+
+
+/*Content*/
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+
+
+/*Mission*/
+.mission {
+  display: flex;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url("../Images/img-mission-background.jpg");
+  }
+
+.mission div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 15%;
+}
+
+.mission h2, h4 {
+  margin: 0;
+}
+
+
+/*Featured*/
+.featured {
+  padding-top: 70px;
+}
+
+.featured-container {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.featured-container div {
+  margin: 10px 5px;
+}
+
+.featured img {
+  display: block;
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.featured h2, h4 {
+  margin-top: 0;
+}
+
+
+/*Locations*/
+.locations {
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+  margin-top: 70px;
+  background-image: url("../Images/img-locations-background.jpg");
+}
+
+.locations h2 {
+  background-color: transparent;
+  margin-top: 0;
+}
+
+.locations h3, h4 {
+  display: block;
+  margin: 0;
+}
+
+.location-container {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.location-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 280px;
+  margin: 0px 20px;
+  opacity: 1;
+}
+
+
+/*Contact*/
+.contact {
+  height: 200px;
+}
+
+.contact h2 {
+  margin-top: 10px;
+}
+
+
+/*Footer*/
+footer {
+  text-align: left;
+  padding: 20px;
+}
